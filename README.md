@@ -216,7 +216,7 @@ Negative numbers mean negative correlation (as one value increases, the other de
 
 Now, we can start plotting the charts.
 For this task we are using LightningChart Python. It is a library designed for dealing with huge (flowing) amounts of data.
-However, it is also usable for data analysis, and wwe will use its features here.
+However, it is also usable for data analysis, and we will use its features here.
 ```python
 chol_neg = df.loc[df['output'] == 0, 'chol'].tolist()  # get the cholesterol vals where output is 0 (no heart attack)
 heartrate_neg = df.loc[df['output'] == 0, 'thalachh'].tolist()  # get the cholesterol vals where output is 0 (no heart attack)
